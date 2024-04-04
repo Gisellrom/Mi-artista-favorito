@@ -1,8 +1,105 @@
 body{
-
+    background-color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-a {
+header {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.personas {
+    width: 100%;
+    height: 50vh;
+}
+
+.logo {
+    width: 100%;
+    height: 15vh;
+}
+
+section h2 {
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+.biografia {
+    text-align: center;
+    color: white;
+}
+
+.biografia > div {
+    padding: 20px 25px;
+}
+
+.discografia {
+    text-align: center;
+    height: 97vh;
+}
+
+.discografia ul > li {
+    padding: 20px;
+}
+
+.videos {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-image: linear-gradient(180deg, black, #e5e5e5);
+
+}
+
+a > li {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #e5e5e5;
+}
+
+.redesSociales {
+    margin: 0px 0px 0px 0px;
+    background-color: #e5e5e5;
+}
+
+.redesSociales h2 {
+    color: black;
+}
+
+.redes-sociales-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: black;
+}
+
+.redes-sociales-list li {
+    margin-right: 10px; /* Espacio entre los iconos */
+}
+
+.redes-sociales-list i {
+    color: black; /* Cambia el color de los iconos a negro */
+}
+
+
+section > p {
+    margin: 10px 10px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
     text-decoration: none;
 }
